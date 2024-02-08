@@ -42,13 +42,13 @@ Part-3: Part 3, add a view to an ASP.NET Core MVC app
 				Hello kejan
 
 
-
-OverView: This is a very basic overview, and actual implementations may vary depending on the programming 
-		  language and framework you're using. The key idea is to separate concerns, making your code more 
-		  modular and maintainable.
-
-
-
+Observation: This is a very basic overview, and actual implementations may vary depending on the programming 
+			 language and framework you're using. The key idea is to separate concerns, making your code more 
+			 modular and maintainable.
+.
+.
+.
+.
 2024-01-18
 1331
 Review : 4th Part (Add a Model)
@@ -74,6 +74,14 @@ jada	31-12-2001	app movie	50000.00	Edit | Details | Delete
 
 
 
+Observation:
+		Adding a model to an ASP.NET Core MVC app involves defining data structures representing business entities, used to interact with a 
+	database and process user input. Models facilitate communication between MVC components, handling data storage, retrieval, and manipulation. 
+	The DataType attribute on ReleaseDate streamlines user input by specifying date-only data and enhances user experience.
+.
+.
+.
+.
 2024-01-25
 1833
 Review : 5th Part (work with a database)
@@ -103,9 +111,15 @@ Create
 Back to List
 
 
-
-
-
+Observation:
+	Database Seeding:
+		Seeding the database involves populating it with initial data.
+		This practice is beneficial for testing, demonstrating functionality, or providing default values.
+		It ensures that the application starts with predefined records, improving efficiency and user experience.
+.
+.
+.
+.
 2024-01-27
 1017
 Review : 6th Part (controller methods and views)
@@ -125,8 +139,13 @@ Review : 6th Part (controller methods and views)
 	templates or layouts to generate the final HTML output that is sent to the user's browser.
 
 
-
-
+Observation:
+	Controllers encapsulate application logic, handling requests, data processing, and view rendering.Views, separate from controllers and models, present 
+	data to users in HTML format. This separation of concerns ensures maintainability and clarity in MVC architecture.
+.
+.
+.
+.
 2024-01-30
 2045
 Review : 7th and 8th Part (Add a Search and A new File)
@@ -145,7 +164,15 @@ Model:
 :-> This could be anything from adding a new "description" field to a product table to adding a "birthdate" field to a user profile.
 
 
-
+Observation:
+		Implementing search functionality allows users to find specific information within the application by inputting keywords or filters, which 
+		are processed on the backend to retrieve relevant data from the database. Adding a new field to the database schema involves modifying the 
+		structure to include a new column or attribute, expanding the data stored. Corresponding updates to the application's codebase are needed to 
+		handle the new field, ensuring seamless integration and functionality.
+.
+.
+.
+.
 2024-01-31
 2105
 Review : 9th and 10th Part (Add validation and Examine Details and Delete )
@@ -181,3 +208,13 @@ Breaking Bad			2023-03-13		Comedy	₹ 100.00		10			Edit | Details | Delete
 Avengers: Age of Ultron	2012-02-23		Comedy	₹ 99.99			8.6			Edit | Details | Delete
 Rio Bravo				2015-04-15		Western	₹ 30.90			6.6			Edit | Details | Delete
 Deadpool				2021-10-01		Action	₹ 100.00		5.7			Edit | Details | Delete
+
+
+
+Observation:
+	Adding validation ensures data integrity by enforcing criteria on user input. The examine details feature allows users
+	to view comprehensive information about specific records, while deletion functionality permits record removal with safeguards 
+	against accidental deletion. 
+	These enhancements empower users with efficient data management capabilities, fostering a more user-centric experience.
+
+

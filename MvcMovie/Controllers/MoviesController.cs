@@ -29,7 +29,7 @@ namespace MvcMovie.Controllers
         {
             if (_context.Movie == null)
             {
-                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+                return Problem("Entity set 'MvcMovieContext.Movie'  is null."); 
             }
 
             // Use LINQ to get list of genres.
